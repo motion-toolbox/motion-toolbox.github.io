@@ -474,6 +474,19 @@
           "platforms": [
             "OS X"
           ]
+        },
+        {
+          "name": "EverydayMenu",
+          "gem_name": "everyday-menu",
+          "url": "https://github.com/henderea/everyday-menu",
+          "description": "An easy way to define menu items and visually lay out menus for your OSX apps.",
+          "tags": [
+            "Views",
+            "NSMenu"
+          ],
+          "platforms": [
+            "OS X"
+          ]
         }
       ]
     },
@@ -620,7 +633,8 @@
             "Interface Builder"
           ],
           "platforms": [
-            "iOS"
+            "iOS",
+            "OS X"
           ]
         },
         {
@@ -1310,6 +1324,19 @@
           "description": "An AVFoundation wrapper to support custom camera controllers.",
           "tags": ["AVFoundation", "Camera", "UIImage"],
           "platforms": ["iOS"]
+        },
+        {
+          "name": "MotionPaddle",
+          "gem_name": "motion-paddle",
+          "url": "https://github.com/henderea/motion-paddle",
+          "description": "A RubyMotion gem for the Paddle framework",
+          "tags": [
+            "Paddle",
+            "Selling"
+          ],
+          "platforms": [
+            "OS X"
+          ]
         }
       ]
     },
