@@ -543,6 +543,18 @@
           ]
         },
         {
+          "name": "motion-crescentia",
+          "gem_name": "motion-crescentia",
+          "url": "https://github.com/Shirk/motion-crescentia",
+          "description": "RubyMotion wrapper for the Calabash BDD framework.",
+          "tags": [
+            "Cucumber"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
           "name": "motion_print",
           "gem_name": "motion_print",
           "url": "https://github.com/MohawkApps/motion_print",
