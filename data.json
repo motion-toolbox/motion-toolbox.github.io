@@ -487,6 +487,21 @@
           "platforms": [
             "OS X"
           ]
+        },{
+          "name": "motion-imager",
+          "gem_name": "motion-imager",
+          "url": "https://github.com/OTGApps/motion-imager",
+          "description": "An interactive iOS image viewer that does it all: double tap to zoom, flick to dismiss, et cetera.",
+          "tags": [
+            "Controllers",
+            "Animations",
+            "Gestures",
+            "UIImage",
+            "Images"
+          ],
+          "platforms": [
+            "iOS"
+          ]
         }
       ]
     },
