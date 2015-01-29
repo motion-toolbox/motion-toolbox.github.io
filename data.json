@@ -788,6 +788,20 @@
           "platforms": [
             "iOS"
           ]
+        },
+        {
+          "name": "motion-maven",
+          "gem_name": "motion-maven",
+          "url": "https://github.com/HipByte/motion-maven",
+          "description": "motion-maven lets you automatically manage 3rd-party Java dependencies in RubyMotion for Android projects using Maven",
+          "tags": [
+            "Dependencies",
+            "Maven",
+            "Settings"
+          ],
+          "platforms": [
+            "Android"
+          ]
         }
       ]
     },
