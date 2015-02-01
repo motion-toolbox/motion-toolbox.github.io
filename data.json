@@ -199,6 +199,19 @@
             "iOS",
       "OS X"
           ]
+        },
+        {
+          "name": "weak_attr_accessor",
+          "gem_name": "weak_attr_accessor",
+          "url": "https://github.com/hboon/weak_attr_accessor",
+          "description": "Adds weak_attr_accessor that wraps objects with WeakRef, for RubyMotion",
+          "tags": [
+            "Models"
+          ],
+          "platforms": [
+            "iOS",
+            "OS X"
+          ]
         }
       ]
     },
@@ -501,6 +514,20 @@
           ],
           "platforms": [
             "iOS"
+          ]
+        },
+        {
+          "name": "purplish-layout",
+          "gem_name": "purplish-layout",
+          "url": "http://hboon.com/purplish-layout/",
+          "description": "A RubyMotion wrapper for Auto Layout on iOS and OS X",
+          "tags": [
+            "Views",
+            "Auto Layout"
+          ],
+          "platforms": [
+            "iOS",
+            "OS X"
           ]
         }
       ]
@@ -1376,6 +1403,20 @@
             "Selling"
           ],
           "platforms": [
+            "OS X"
+          ]
+        },
+        {
+          "name": "purple-monkey",
+          "gem_name": "purple-monkey",
+          "url": "https://github.com/hboon/purple-monkey",
+          "description": "Barebones wrapper for working with MailChimp on iOS/OS X using RubyMotion",
+          "tags": [
+            "HTTP",
+            "Email"
+          ],
+          "platforms": [
+            "iOS",
             "OS X"
           ]
         }
