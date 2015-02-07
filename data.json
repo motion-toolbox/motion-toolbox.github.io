@@ -311,6 +311,21 @@
           "platforms": [
             "iOS"
           ]
+        },
+        {
+          "name": "couchmotion",
+          "gem_name": false,
+          "url": "https://github.com/jannishuebl/couchmotion",
+          "description": "API for using Couchbase(CouchDB) a schemaless database with Rubymotion for Android and iOS",
+          "tags": [
+            "Models",
+            "Persistence",
+            "Schemaless"
+          ],
+          "platforms": [
+            "Android",
+            "iOS"
+          ]
         }
       ]
     },
