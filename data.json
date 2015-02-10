@@ -193,7 +193,7 @@
           "url": "https://github.com/wooandoo/motion-pool",
           "description": "A pool for RubyMotion.",
           "tags": [
-            
+
           ],
           "platforms": [
             "iOS",
@@ -498,6 +498,21 @@
             "Gestures",
             "UIImage",
             "Images"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },{
+          "name": "Ion_in_Motion",
+          "gem_name": "ion_in_motion",
+          "url": "https://github.com/Brian-Egan/ion_in_motion",
+          "description": "Ridiculously easy use of IonIcons in UILabels, UIButtons, UIImages and more. IonIcons: http://ionicons.com/",
+          "tags": [
+            "Views",
+            "Icons",
+            "Style",
+            "Ion Icons",
+            "Buttons"
           ],
           "platforms": [
             "iOS"
