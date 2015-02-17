@@ -139,7 +139,6 @@
           "description": "A full featured RubyMotion framework that makes iPhone development less like Objective-C and more like Ruby, designed to get up and running fast.",
           "tags": [
             "ProMotion",
-            "Storyboard",
             "Screens",
             "NSMenu",
             "Tables",
@@ -1479,7 +1478,6 @@
           "url": "https://github.com/clearsightstudio/ProMotion-menu",
           "description": "RubyMotion gem allowing you to easily setup a facebook or Path style hidden slide menu easily with the ProMotion gem.",
           "tags": [
-            "NSMenu",
             "SlideMenu",
             "ProMotion"
           ],
