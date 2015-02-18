@@ -1523,7 +1523,7 @@
             "HTTP"
           ],
           "platforms": [
-            "OSX"
+            "OS X"
           ]
         },
         {
@@ -1550,7 +1550,7 @@
           ],
           "platforms": [
             "iOS",
-            "OSX"
+            "OS X"
           ]
         },
         {
