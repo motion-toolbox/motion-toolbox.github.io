@@ -8,3 +8,7 @@ gem "middleman", "~>3.3.3"
 gem "middleman-livereload", "~> 3.1.0"
 
 gem 'middleman-gh-pages'
+
+# For interacting with rubygems.org
+gem 'gems'
+gem 'ruby-progressbar'
