@@ -89,7 +89,7 @@
               </div>
             </div>
             <div class="row wrappers-list">
-              <% halves = category["wrappers"].each_slice( (category["wrappers"].size/2.0).round ).to_a %>
+              <% halves = sort_by_downloads(category["wrappers"]).each_slice( (category["wrappers"].size/2.0).round ).to_a %>
               <% halves.each_with_index do |wrappers, col_index| %>
                 <div class="col-md-6 wrappers-column wrappers-column-<%= col_index %>">
                 <% wrappers.each_with_index do |wrapper, index| %>
@@ -115,6 +115,7 @@
               <li>Fork the <a href="https://github.com/clayallsopp/motion-toolbox.com" target="_blank">motion-toolbox.com</a> repo</li>
               <li>Run <code>bundle install</code></li>
               <li>Edit <a href="https://github.com/clayallsopp/motion-toolbox.com/blob/master/data.json" target="_blank">data.json</a> to include your library</li>
+              <li>Get gem download counts with <code>rake download_counts</code></li>
               <li>Preview your changes by running <code>middleman</code> and <code>rake open</code></li>
               <li>Submit a pull request</li>
             </ol>
