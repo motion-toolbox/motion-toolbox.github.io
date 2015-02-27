@@ -26,7 +26,6 @@ GEM
     execjs (2.2.1)
     ffi (1.9.3)
     fssm (0.2.10)
-    gems (0.8.3)
     haml (4.0.5)
       tilt
     hike (1.2.3)
@@ -94,7 +93,6 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.3)
       ffi (>= 0.5.0)
-    ruby-progressbar (1.7.1)
     sass (3.2.19)
     sprockets (2.12.1)
       hike (~> 1.2)
@@ -120,8 +118,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  gems
   middleman (~> 3.3.3)
   middleman-gh-pages
   middleman-livereload (~> 3.1.0)
-  ruby-progressbar
