@@ -14,7 +14,10 @@
   </div>
   <% if wrapper["gem_name"] %>
     <div class="wrapper-gem">
-      <code><a target="_blank" href="http://rubygems.org/gems/<%= wrapper['gem_name'] %>">gem install <%= wrapper["gem_name"] %></a> (<%= download_count(wrapper['gem_name']) %> downloads)</code>
+      <code><a target="_blank" href="http://rubygems.org/gems/<%= wrapper['gem_name'] %>">gem install <%= wrapper["gem_name"] %></a></code>
+      <div class="gem-downloads">
+        (<%= download_count(wrapper['gem_name']) %> downloads)
+      </div>
     </div>
   <% end %>
   <div class="wrapper-tags">

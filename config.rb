@@ -24,7 +24,7 @@ module ToolboxHelpers
   end
 
   def download_count(gem_name)
-    download_counts[gem_name].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse
+    download_counts[gem_name].si
   end
 
   def sort_by_downloads(wrappers)
