@@ -133,16 +133,19 @@ code {
   /* line 153, ../assets/css/patch.scss */
   .wrapper-info .wrapper-gem {
     margin-bottom: 20px; }
-  /* line 157, ../assets/css/patch.scss */
+    /* line 156, ../assets/css/patch.scss */
+    .wrapper-info .wrapper-gem .gem-downloads {
+      margin-top: 5px; }
+  /* line 161, ../assets/css/patch.scss */
   .wrapper-info .wrapper-tags {
     position: relative; }
-  /* line 161, ../assets/css/patch.scss */
+  /* line 165, ../assets/css/patch.scss */
   .wrapper-info .wrapper-tags-label {
     color: #333333; }
-    /* line 163, ../assets/css/patch.scss */
+    /* line 167, ../assets/css/patch.scss */
     .wrapper-info .wrapper-tags-label:hover {
       text-decoration: none; }
-    /* line 167, ../assets/css/patch.scss */
+    /* line 171, ../assets/css/patch.scss */
     .wrapper-info .wrapper-tags-label:after, .wrapper-info .wrapper-tags-label:before {
       left: -9px;
       top: 8px;
@@ -152,38 +155,38 @@ code {
       width: 0;
       position: absolute;
       pointer-events: none; }
-    /* line 178, ../assets/css/patch.scss */
+    /* line 182, ../assets/css/patch.scss */
     .wrapper-info .wrapper-tags-label:after {
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 3px 0 3px 6px;
       border-color: transparent transparent transparent #d8d8d8; }
-    /* line 187, ../assets/css/patch.scss */
+    /* line 191, ../assets/css/patch.scss */
     .wrapper-info .wrapper-tags-label.active:after {
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 6px 3px 0 3px;
       border-color: #d8d8d8 transparent transparent transparent; }
-  /* line 197, ../assets/css/patch.scss */
+  /* line 201, ../assets/css/patch.scss */
   .wrapper-info .wrapper-tags-list {
     margin-top: 10px; }
-    /* line 199, ../assets/css/patch.scss */
+    /* line 203, ../assets/css/patch.scss */
     .wrapper-info .wrapper-tags-list table {
       width: 100%; }
-      /* line 201, ../assets/css/patch.scss */
+      /* line 205, ../assets/css/patch.scss */
       .wrapper-info .wrapper-tags-list table td {
         width: 33%;
         padding-bottom: 2px;
         font-size: 13px;
         line-height: 23px; }
 
-/* line 215, ../assets/css/patch.scss */
+/* line 219, ../assets/css/patch.scss */
 .category-info {
   padding-top: 39px;
   margin-bottom: 16px; }
-  /* line 219, ../assets/css/patch.scss */
+  /* line 223, ../assets/css/patch.scss */
   .category-info h2 {
     margin: 0px;
     margin-right: 10px;
@@ -191,24 +194,24 @@ code {
     color: #9a9a9a;
     line-height: 31px; }
 
-/* line 228, ../assets/css/patch.scss */
+/* line 232, ../assets/css/patch.scss */
 .filters {
   background: #f2f2f2; }
-  /* line 231, ../assets/css/patch.scss */
+  /* line 235, ../assets/css/patch.scss */
   .filters table {
     background: white;
     width: 100%;
     table-layout: fixed;
     word-wrap: break-word; }
-    /* line 237, ../assets/css/patch.scss */
+    /* line 241, ../assets/css/patch.scss */
     .filters table tr {
       border-bottom-width: 2px;
       border-bottom-color: #f2f2f2;
       border-bottom-style: solid; }
-    /* line 243, ../assets/css/patch.scss */
+    /* line 247, ../assets/css/patch.scss */
     .filters table tr td:last-child {
       border-right-width: 0px; }
-    /* line 247, ../assets/css/patch.scss */
+    /* line 251, ../assets/css/patch.scss */
     .filters table td {
       background: white;
       text-align: center;
@@ -217,27 +220,27 @@ code {
       border-right-width: 2px;
       border-right-style: solid;
       width: 33%; }
-      /* line 256, ../assets/css/patch.scss */
+      /* line 260, ../assets/css/patch.scss */
       .filters table td:hover, .filters table td *:hover {
         cursor: pointer; }
 
-/* line 264, ../assets/css/patch.scss */
+/* line 268, ../assets/css/patch.scss */
 .filter-platforms td {
   color: #1abc9c; }
-  /* line 266, ../assets/css/patch.scss */
+  /* line 270, ../assets/css/patch.scss */
   .filter-platforms td.active {
     background: #1abc9c;
     color: white; }
 
-/* line 264, ../assets/css/patch.scss */
+/* line 268, ../assets/css/patch.scss */
 .filter-tags td {
   color: #e74c3c; }
-  /* line 266, ../assets/css/patch.scss */
+  /* line 270, ../assets/css/patch.scss */
   .filter-tags td.active {
     background: #e74c3c;
     color: white; }
 
-/* line 281, ../assets/css/patch.scss */
+/* line 285, ../assets/css/patch.scss */
 .filter-group-title {
   font-size: 13px;
   color: #9a9a9a;
@@ -247,15 +250,15 @@ code {
   margin-bottom: 9px; }
 
 /* Tags */
-/* line 292, ../assets/css/patch.scss */
+/* line 296, ../assets/css/patch.scss */
 .tag-search .wrapper-tag {
   cursor: pointer; }
-/* line 295, ../assets/css/patch.scss */
+/* line 299, ../assets/css/patch.scss */
 .tag-search .wrapper-tag.active {
   background-color: #3A87AD;
   color: #FFFFFF; }
 
-/* line 302, ../assets/css/patch.scss */
+/* line 306, ../assets/css/patch.scss */
 #fork-me {
   display: none;
   position: fixed;
@@ -276,23 +279,23 @@ code {
   /* Chrome, Safari, Opera */
   transform: rotate(45deg); }
   @media (min-width: 992px) {
-    /* line 302, ../assets/css/patch.scss */
+    /* line 306, ../assets/css/patch.scss */
     #fork-me {
       display: initial; } }
 
-/* line 325, ../assets/css/patch.scss */
+/* line 329, ../assets/css/patch.scss */
 .sidebar {
   /* shadow: */
   background: #ffffff;
   overflow: auto;
   overflow-x: hidden; }
-  /* line 331, ../assets/css/patch.scss */
+  /* line 335, ../assets/css/patch.scss */
   .sidebar .filters {
     max-height: 200px;
     overflow: scroll;
     -webkit-overflow-scrolling: touch; }
   @media (min-width: 992px) {
-    /* line 325, ../assets/css/patch.scss */
+    /* line 329, ../assets/css/patch.scss */
     .sidebar {
       position: fixed;
       -moz-box-shadow: -4px 0px 14px 0px rgba(0, 0, 0, 0.5);
@@ -300,17 +303,17 @@ code {
       overflow: scroll;
       overflow-x: hidden;
       max-height: 100%; }
-      /* line 345, ../assets/css/patch.scss */
+      /* line 349, ../assets/css/patch.scss */
       .sidebar .filters {
         max-height: none;
         overflow: auto; } }
 
-/* line 352, ../assets/css/patch.scss */
+/* line 356, ../assets/css/patch.scss */
 .modal-content {
   border-radius: 0px;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none; }
-  /* line 358, ../assets/css/patch.scss */
+  /* line 362, ../assets/css/patch.scss */
   .modal-content li {
     line-height: 30px; }
