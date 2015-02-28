@@ -9,6 +9,7 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem 'middleman-gh-pages'
 
-# For interacting with rubygems.org
+# For download numbers
 gem 'gems'
 gem 'ruby-progressbar'
+gem 'si'
