@@ -8,4 +8,6 @@ Pull requests are encouraged! Add new wrappers or more tags to existing ones.
 
 2. Add your new data to `data.json`
 
-3. Preview your changes with `middleman` and `rake open`
+3. Get gem download counts with `rake download_counts`
+
+4. Preview your changes with `middleman` and `rake open`
