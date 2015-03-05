@@ -157,6 +157,41 @@
           ]
         },
         {
+          "name": "RedPotion",
+          "gem_name": "redpotion",
+          "url": "https://github.com/infinitered/redpotion",
+          "description": "RedPotion combines RMQ, ProMotion, CDQ, AFMotion, and more for the perfect mix to develop in RubyMotion fast.",
+          "tags": [
+            "Animations",
+            "App",
+            "ProMotion",
+            "Controllers",
+            "Device",
+            "Events",
+            "Gestures",
+            "Networking",
+            "CoreData",
+            "NSMenu",
+            "RMQ",
+            "Screens",
+            "Stylesheets",
+            "Tables",
+            "Toolbars",
+            "UIBarButtonItem",
+            "UIColor",
+            "UIFont",
+            "UIImage",
+            "UITableView",
+            "UITextView",
+            "UIToolbar",
+            "UIViewController",
+            "Views"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
           "name": "motion-support",
           "gem_name": "motion-support",
           "url": "https://github.com/tkadauke/motion-support",
