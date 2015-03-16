@@ -118,21 +118,6 @@
           ]
         },
         {
-          "name": "Nitron",
-          "gem_name": "nitron",
-          "url": "https://github.com/mattgreen/nitron",
-          "description": "Nitron is an opinionated, loosely-coupled set of RubyMotion components designed to accelerate iOS development, especially with simpler iOS apps.",
-          "tags": [
-            "Models",
-            "Core Data",
-            "Bindings",
-            "Storyboard"
-          ],
-          "platforms": [
-            "iOS"
-          ]
-        },
-        {
           "name": "ProMotion",
           "gem_name": "ProMotion",
           "url": "https://github.com/clearsightstudio/ProMotion",
