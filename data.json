@@ -863,6 +863,20 @@
           ]
         },
         {
+          "name": "motion-launchimages",
+          "gem_name": "motion-launchimages",
+          "url": "https://github.com/brendanjcaffrey/motion-launchimages",
+          "description": "Automate taking your RubyMotion launch images",
+          "tags": [
+            "Screenshots",
+            "App Store",
+            "Automation"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
           "name": "motion-my_env",
           "gem_name": "motion-my_env",
           "url": "https://github.com/ainame/motion-my_env",
