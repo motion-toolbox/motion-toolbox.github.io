@@ -10,7 +10,6 @@
           "description": "A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.",
           "tags": [
             "JSON",
-            "HTTP",
             "RSS",
             "XML",
             "Camera",
