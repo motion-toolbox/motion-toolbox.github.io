@@ -222,7 +222,7 @@
           "url": "https://github.com/wooandoo/motion-pool",
           "description": "A pool for RubyMotion.",
           "tags": [
-            
+
           ],
           "platforms": [
             "iOS",
@@ -1086,6 +1086,20 @@
             "MessageUI",
             "Views",
             "Email"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "MotionPanel",
+          "gem_name": "motion_panel",
+          "url": "https://github.com/tombroomfield/motion_panel",
+          "description": "A native RubyMotion wrapper around the Mixpanel API.",
+          "tags": [
+            "API",
+            "Mixpanel",
+            "Analytics"
           ],
           "platforms": [
             "iOS"
