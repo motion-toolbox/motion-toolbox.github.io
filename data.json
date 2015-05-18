@@ -241,6 +241,20 @@
             "iOS",
             "OS X"
           ]
+        }, 
+        {
+          "name": "motion-bitmask", 
+          "gem_name": "motion-bitmask", 
+          "url": "https://github.com/buffpojken/motion-bitmask", 
+          "description": "A simple implementation of generic bitmasks for RubyMotion.", 
+          "tags": [
+            "Models", 
+            "Bitmask"
+          ], 
+          "platforms": [
+            "iOS", 
+            "OS X"
+          ]
         }
       ]
     },
