@@ -73,7 +73,7 @@ def get_star_counts!
   progress.finish
 end
 
-get_star_counts! unless ENV['SKIP_GEMS']
+get_star_counts! unless ENV['SKIP_GITHUB']
 
 helpers ToolboxHelpers
 
