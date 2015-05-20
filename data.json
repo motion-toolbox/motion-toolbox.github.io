@@ -186,8 +186,8 @@
         {
           "name": "motion-support",
           "gem_name": "motion-support",
-          "url": "https://github.com/tkadauke/motion-support",
-          "github": "tkadauke/motion-support",
+          "url": "https://github.com/rubymotion/motion-support",
+          "github": "rubymotion/motion-support",
           "description": "A port of ActiveSupport to RubyMotion",
           "tags": [
             "Models",
@@ -414,8 +414,8 @@
         {
           "name": "Teacup",
           "gem_name": "teacup",
-          "url": "https://github.com/rubymotion/teacup",
-          "github": "rubymotion/teacup",
+          "url": "https://github.com/colinta/teacup",
+          "github": "colinta/teacup",
           "description": "A community-driven DSL for creating user interfaces on the iPhone.",
           "tags": [
             "Views",
@@ -555,8 +555,8 @@
         {
           "name": "MotionKit",
           "gem_name": "motion-kit",
-          "url": "https://github.com/rubymotion/motion-kit",
-          "github": "rubymotion/motion-kit",
+          "url": "https://github.com/motion-kit/motion-kit",
+          "github": "motion-kit/motion-kit",
           "description": "The RubyMotion layout and styling gem.",
           "tags": [
             "Views",
@@ -660,8 +660,8 @@
         {
           "name": "WebStub",
           "gem_name": "webstub",
-          "url": "https://github.com/mattgreen/webstub",
-          "github": "mattgreen/webstub",
+          "url": "https://github.com/nathankot/webstub",
+          "github": "nathankot/webstub",
           "description": "Easily stub out HTTP responses in RubyMotion specs.",
           "tags": [
             "HTTP",
@@ -713,8 +713,8 @@
         {
           "name": "motion_print",
           "gem_name": "motion_print",
-          "url": "https://github.com/OGTApps/motion_print",
-          "github": "OGTApps/motion_print",
+          "url": "https://github.com/OTGApps/motion_print",
+          "github": "OTGApps/motion_print",
           "description": "A RubyMotion friendly console logger and debugging tool. Use it to output pretty formatted objects to the REPL.",
           "tags": [
             "Debug",
@@ -801,8 +801,8 @@
         {
           "name": "IB",
           "gem_name": "ib",
-          "url": "https://github.com/yury/ib",
-          "github": "yury/ib",
+          "url": "https://github.com/rubymotion/ib",
+          "github": "rubymotion/ib",
           "description": "RubyMotion Interface Builder support, including outlets and actions.",
           "tags": [
             "Interface Builder"
@@ -890,8 +890,8 @@
         {
           "name": "motion-env",
           "gem_name": "motion-env",
-          "url": "https://github.com/usepropeller/motion-env",
-          "github": "usepropeller/motion-env",
+          "url": "https://github.comclayallsopp/motion-env",
+          "github": "clayallsopp/motion-env",
           "description": "Sync ENV variables between Rakefile and RubyMotion",
           "tags": [
             "Build",
@@ -905,8 +905,8 @@
         {
           "name": "motion-screenshots",
           "gem_name": "motion-screenshots",
-          "url": "https://github.com/usepropeller/motion-screenshots",
-          "github": "usepropeller/motion-screenshots",
+          "url": "https://github.com/clayallsopp/motion-screenshots",
+          "github": "clayallsopp/motion-screenshots",
           "description": "Automatic screenshots for your RubyMotion apps",
           "tags": [
             "Screenshots",
@@ -1380,8 +1380,8 @@
           "name": "StatusBar",
           "description": "Notifications for the statusbar.",
           "gem_name": "status_bar",
-          "url": "https://github.com/holgersindbaek/StatusBar",
-          "github": "holgersindbaek/StatusBar",
+          "url": "https://github.com/holgersindbaek/status_bar",
+          "github": "holgersindbaek/status_bar",
           "tags": [
             "Alerts",
             "Progress",
@@ -1409,7 +1409,7 @@
           "description": "A gem for scheduling stuff. You can use motion-takeoff to display messages at certain launch counts and schedule local notifications.",
           "gem_name": "motion-takeoff",
           "url": "https://github.com/OTGApps/motion-takeoff",
-          "github": "OTGAps/motion-takeoff",
+          "github": "OTGApps/motion-takeoff",
           "tags": [
             "Reminders",
             "UILocalNotification",
