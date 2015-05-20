@@ -7,6 +7,7 @@
           "name": "BubbleWrap",
           "gem_name": "bubble-wrap",
           "url": "http://rubymotion.github.io/BubbleWrap",
+          "github": "rubymotion/BubbleWrap",
           "description": "A collection of (tested) helpers and wrappers used to wrap CocoaTouch code and provide more Ruby like APIs.",
           "tags": [
             "JSON",
@@ -33,6 +34,7 @@
           "name": "Sugarcube",
           "gem_name": "sugarcube",
           "url": "https://github.com/rubymotion/sugarcube",
+          "github": "rubymotion/sugarcube",
           "description": "These extensions hope to make development in RubyMotion more enjoyable by tacking 'UI' methods onto the base classes (String, Fixnum, Numeric). With sugarcube, you can create a color from an integer or symbol, or create a UIFont or UIImage from a string.",
           "tags": [
             "Animations",
@@ -51,6 +53,7 @@
           "name": "motion-keychain",
           "gem_name": "motion-keychain",
           "url": "https://github.com/IconoclastLabs/motion-keychain",
+          "github": "IconoclastLabs/motion-keychain",
           "description": "The motion-keychain gem is a simple wrapper for Keychain on iOS and OS X. Makes using Keychain APIs as easy as NSUserDefaults.",
           "tags": [
             "Configuration",
@@ -68,6 +71,7 @@
           "name": "MotionPrime",
           "gem_name": "motion-prime",
           "url": "http://prime.droidlabs.pro",
+          "github": "droidlabs/motion-prime",
           "description": "MotionPrime is yet another framework written on RubyMotion for creating really fast iOS applications.",
           "tags": [
             "Models",
@@ -85,6 +89,7 @@
           "name": "RubyMotionQuery - RMQ",
           "gem_name": "ruby_motion_query",
           "url": "http://infinitered.com/rmq",
+          "github": "infinitered/rmq",
           "description": "A light, non-magical, non-polluting, jQuery-like library",
           "tags": [
             "Controllers",
@@ -107,6 +112,7 @@
           "name": "Elevate",
           "gem_name": "elevate",
           "url": "https://github.com/mattgreen/elevate",
+          "github": "mattgreen/elevate",
           "description": "Stop scattering your domain logic across your view controller. Consolidate it to a single conceptual unit with Elevate.",
           "tags": [
             "Controllers",
@@ -120,6 +126,7 @@
           "name": "ProMotion",
           "gem_name": "ProMotion",
           "url": "https://github.com/clearsightstudio/ProMotion",
+          "github": "clearsightstudio/ProMotion",
           "description": "A full featured RubyMotion framework that makes iPhone development less like Objective-C and more like Ruby, designed to get up and running fast.",
           "tags": [
             "ProMotion",
@@ -144,6 +151,7 @@
           "name": "RedPotion",
           "gem_name": "redpotion",
           "url": "https://github.com/infinitered/redpotion",
+          "github": "infinitered/redpotion",
           "description": "RedPotion combines RMQ, ProMotion, CDQ, AFMotion, and more for the perfect mix to develop in RubyMotion fast.",
           "tags": [
             "Animations",
@@ -179,6 +187,7 @@
           "name": "motion-support",
           "gem_name": "motion-support",
           "url": "https://github.com/tkadauke/motion-support",
+          "github": "tkadauke/motion-support",
           "description": "A port of ActiveSupport to RubyMotion",
           "tags": [
             "Models",
@@ -192,6 +201,7 @@
           "name": "motion-speech",
           "gem_name": "motion-speech",
           "url": "https://github.com/macfanatic/motion-speech",
+          "github": "macfanatic/motion-speech",
           "description": "Easy text-to-speech wrapper for AVSpeechSynthesizer in iOS 7.",
           "tags": [
             "AVSpeechSynthesizer",
@@ -206,6 +216,7 @@
           "name": "motion-hybrid",
           "gem_name": "motion-hybrid",
           "url": "https://github.com/balvig/motion-hybrid",
+          "github": "balvig/motion-hybrid",
           "description": "RubyMotion framework for easily making hybrid webview-centric iOS apps",
           "tags": [
             "Rails",
@@ -220,6 +231,7 @@
           "name": "motion-pool",
           "gem_name": "motion-pool",
           "url": "https://github.com/wooandoo/motion-pool",
+          "github": "wooandoo/motion-pool",
           "description": "A pool for RubyMotion.",
           "tags": [
 
@@ -233,6 +245,7 @@
           "name": "weak_attr_accessor",
           "gem_name": "weak_attr_accessor",
           "url": "https://github.com/hboon/weak_attr_accessor",
+          "github": "hboon/weak_attr_accessor",
           "description": "Adds weak_attr_accessor that wraps objects with WeakRef, for RubyMotion",
           "tags": [
             "Models"
@@ -241,18 +254,19 @@
             "iOS",
             "OS X"
           ]
-        }, 
+        },
         {
-          "name": "motion-bitmask", 
-          "gem_name": "motion-bitmask", 
-          "url": "https://github.com/buffpojken/motion-bitmask", 
-          "description": "A simple implementation of generic bitmasks for RubyMotion.", 
+          "name": "motion-bitmask",
+          "gem_name": "motion-bitmask",
+          "url": "https://github.com/buffpojken/motion-bitmask",
+          "github": "buffpojken/motion-bitmask",
+          "description": "A simple implementation of generic bitmasks for RubyMotion.",
           "tags": [
-            "Models", 
+            "Models",
             "Bitmask"
-          ], 
+          ],
           "platforms": [
-            "iOS", 
+            "iOS",
             "OS X"
           ]
         }
@@ -265,6 +279,7 @@
           "name": "MotionModel",
           "gem_name": "motion_model",
           "url": "https://github.com/sxross/MotionModel",
+          "github": "sxross/MotionModel",
           "description": "Simple Model, Validation, and Input Mixins for RubyMotion.",
           "tags": [
             "Models",
@@ -278,6 +293,7 @@
           "name": "NanoStoreInMotion",
           "gem_name": "nano-store",
           "url": "https://github.com/siuying/NanoStoreInMotion",
+          "github": "siuying/NanoStoreInMotion",
           "description": "Wrapper for NanoStore, a lightweight schema-less key-value document database based on sqlite.",
           "tags": [
             "Models",
@@ -291,6 +307,7 @@
           "name": "MotionDataWrapper",
           "gem_name": "motion_data_wrapper",
           "url": "https://github.com/macfanatic/motion_data_wrapper",
+          "github": "macfanatic/motion_data_wrapper",
           "description": "Intuitive querying and persistence of CoreData models, using Xcode to define entities, validations, relationships and migrations.",
           "tags": [
             "Models",
@@ -303,6 +320,7 @@
         {
           "name": "Core Data Query - CDQ",
           "url": "https://github.com/infinitered/cdq",
+          "github": "infinitered/cdq",
           "gem_name": "cdq",
           "description": "Easy-to-set-up library for using Core Data without Xcode",
           "tags": [
@@ -319,6 +337,7 @@
           "name": "motion-bindable",
           "gem_name": "motion_bindable",
           "url": "https://github.com/nathankot/motion-bindable",
+          "github": "nathankot/motion-bindable",
           "description": "Create two-way bindings between your models and view objects (or any other object.)",
           "tags": [
             "Bindings"
@@ -331,6 +350,7 @@
           "name": "Turnkey",
           "gem_name": "turnkey",
           "url": "https://github.com/seldomatt/TurnKey",
+          "github": "seldomatt/TurnKey",
           "description": "Utility for saving custom objects to NSUserDefaults using NSKeyedArchiver and NSKeyedUnarchiver",
           "tags": [
             "Persistence",
@@ -345,6 +365,7 @@
           "name": "yapper",
           "gem_name": "motion-yapper",
           "url": "https://github.com/kareemk/yapper",
+          "github": "kareemk/yapper",
           "description": "ORM for YapDatabase which is schemaless, very fast (thanks to YapDatabase's architecture), has chainable criteria, one-many relationships, on-the-fly reindexing and is thread-safe.",
           "tags": [
             "Models",
@@ -359,6 +380,7 @@
           "name": "couchmotion",
           "gem_name": false,
           "url": "https://github.com/jannishuebl/couchmotion",
+          "github": "jannishuebl/couchmotion",
           "description": "API for using Couchbase(CouchDB) a schemaless database with Rubymotion for Android and iOS",
           "tags": [
             "Models",
@@ -379,6 +401,7 @@
           "name": "Formotion",
           "gem_name": "formotion",
           "url": "https://github.com/clayallsopp/formotion",
+          "github": "clayallsopp/formotion",
           "description": "Painless, productive views on iOS.",
           "tags": [
             "Views",
@@ -392,6 +415,7 @@
           "name": "Teacup",
           "gem_name": "teacup",
           "url": "https://github.com/rubymotion/teacup",
+          "github": "rubymotion/teacup",
           "description": "A community-driven DSL for creating user interfaces on the iPhone.",
           "tags": [
             "Views",
@@ -406,6 +430,7 @@
           "name": "Geomotion",
           "gem_name": "geomotion",
           "url": "https://github.com/clayallsopp/geomotion",
+          "github": "clayallsopp/geomotion",
           "description": "Better iOS Geometry with RubyMotion.",
           "tags": [
             "CGRect"
@@ -418,6 +443,7 @@
           "name": "Walt",
           "gem_name": "walt",
           "url": "https://github.com/clayallsopp/Walt",
+          "github": "clayallsopp/Walt",
           "description": "Frictionless, hash-based iOS animations.",
           "tags": [
             "Views",
@@ -431,6 +457,7 @@
           "name": "AccordionView",
           "gem_name": "accordion_view",
           "url": "https://github.com/toamitkumar/AccordionView",
+          "github": "toamitkumar/AccordionView",
           "description": "Create and add Accordions to your UIViews.",
           "tags": [
             "Views",
@@ -444,6 +471,7 @@
           "name": "motion-layout",
           "gem_name": "motion-layout",
           "url": "https://github.com/qrush/motion-layout",
+          "github": "qrush/motion-layout",
           "description": "A nice way to use Auto Layout in your RubyMotion app.",
           "tags": [
             "Views",
@@ -456,6 +484,7 @@
         {
           "name": "motion-stylez",
           "url": "https://github.com/FluffyJack/motion-stylez",
+          "github": "FluffyJack/motion-stylez",
           "description": "RubyMotion stylesheet library based off RMQ",
           "tags": [
             "Views",
@@ -469,6 +498,7 @@
           "name": "better_toolbar",
           "gem_name": "better_toolbar",
           "url": "https://github.com/FluffyJack/better_toolbars",
+          "github": "FluffyJack/better_toolbars",
           "description": "A better way to work with toolbars",
           "tags": [
             "Views",
@@ -483,6 +513,7 @@
         {
           "name": "motion-form",
           "url": "https://github.com/dblandin/motion-form",
+          "github": "dblandin/motion-form",
           "description": "RubyMotion forms made easy",
           "tags": [
             "Views",
@@ -496,6 +527,7 @@
         {
           "name": "MIMInputToolbar",
           "url": "https://github.com/FluffyJack/MIMInputToolbar",
+          "github": "FluffyJack/MIMInputToolbar",
           "description": "Input accessory view for your UITextFields and UITextViews.",
           "tags": [
             "Views",
@@ -510,6 +542,7 @@
           "name": "motion-wizard",
           "gem_name": "motion-wizard",
           "url": "https://github.com/ijpiantanida/motion-wizard",
+          "github": "ijpiantanida/motion-wizard",
           "description": "A gem to create wizard like view controllers in iOS",
           "tags": [
             "Views",
@@ -523,6 +556,7 @@
           "name": "MotionKit",
           "gem_name": "motion-kit",
           "url": "https://github.com/rubymotion/motion-kit",
+          "github": "rubymotion/motion-kit",
           "description": "The RubyMotion layout and styling gem.",
           "tags": [
             "Views",
@@ -537,6 +571,7 @@
           "name": "MenuMotion",
           "gem_name": "menu-motion",
           "url": "https://github.com/codelation/menu-motion",
+          "github": "codelation/menu-motion",
           "description": "A RubyMotion wrapper for creating OS X menus",
           "tags": [
             "Views",
@@ -550,6 +585,7 @@
           "name": "EverydayMenu",
           "gem_name": "everyday-menu",
           "url": "https://github.com/henderea/everyday-menu",
+          "github": "henderea/everyday-menu",
           "description": "An easy way to define menu items and visually lay out menus for your OSX apps.",
           "tags": [
             "Views",
@@ -562,6 +598,7 @@
           "name": "motion-imager",
           "gem_name": "motion-imager",
           "url": "https://github.com/OTGApps/motion-imager",
+          "github": "OTGApps/motion-imager",
           "description": "An interactive iOS image viewer that does it all: double tap to zoom, flick to dismiss, et cetera.",
           "tags": [
             "Controllers",
@@ -592,6 +629,7 @@
           "name": "ProMotion-form",
           "gem_name": "ProMotion-form",
           "url": "https://github.com/clearsightstudio/ProMotion-form",
+          "github": "clearsightstudio/ProMotion-form",
           "description": "ProMotion::FormScreen - forms the ProMotion way!",
           "tags": [
             "Forms",
@@ -610,6 +648,7 @@
           "name": "MotionFixtures",
           "gem_name": "motion-fixtures",
           "url": "https://github.com/farcaller/motion-fixtures",
+          "github": "farcaller/motion-fixtures",
           "description": "Simple support for test fixtures.",
           "tags": [
             "Fixtures"
@@ -622,6 +661,7 @@
           "name": "WebStub",
           "gem_name": "webstub",
           "url": "https://github.com/mattgreen/webstub",
+          "github": "mattgreen/webstub",
           "description": "Easily stub out HTTP responses in RubyMotion specs.",
           "tags": [
             "HTTP",
@@ -635,6 +675,7 @@
           "name": "motion-stump",
           "gem_name": "motion-stump",
           "url": "https://github.com/siuying/motion-stump",
+          "github": "siuying/motion-stump",
           "description": "Stubbing and mocking for RubyMotion.",
           "tags": [
             "Mock"
@@ -647,6 +688,7 @@
           "name": "motion-frank",
           "gem_name": "motion-frank",
           "url": "https://github.com/cyrusinnovation/motion-frank",
+          "github": "cyrusinnovation/motion-frank",
           "description": "A gem to use integrate frank-cucumber into RubyMotion projects.",
           "tags": [
             "Cucumber"
@@ -659,6 +701,7 @@
           "name": "motion-crescentia",
           "gem_name": "motion-crescentia",
           "url": "https://github.com/Shirk/motion-crescentia",
+          "github": "Shirk/motion-crescentia",
           "description": "RubyMotion wrapper for the Calabash BDD framework.",
           "tags": [
             "Cucumber"
@@ -670,7 +713,8 @@
         {
           "name": "motion_print",
           "gem_name": "motion_print",
-          "url": "https://github.com/MohawkApps/motion_print",
+          "url": "https://github.com/OGTApps/motion_print",
+          "github": "OGTApps/motion_print",
           "description": "A RubyMotion friendly console logger and debugging tool. Use it to output pretty formatted objects to the REPL.",
           "tags": [
             "Debug",
@@ -685,6 +729,7 @@
           "name": "awesome_print_motion",
           "gem_name": "awesome_print_motion",
           "url": "https://github.com/michaeldv/awesome_print_motion",
+          "github": "michaeldv/awesome_print_motion",
           "description": "A port of the awesome_print gem to RubyMotion.",
           "tags": [
             "Debug",
@@ -698,6 +743,7 @@
           "name": "motion-colorize",
           "gem_name": "motion-colorize",
           "url": "https://github.com/clayallsopp/motion-colorize",
+          "github": "clayallsopp/motion-colorize",
           "description": "Add some color to your RubyMotion output.",
           "tags": [
             "Debug",
@@ -711,6 +757,7 @@
           "name": "motion-facon",
           "gem_name": "facon",
           "url": "https://github.com/chuyeow/facon",
+          "github": "chuyeow/facon",
           "description": "A port of Facon mocking library to RubyMotion.",
           "tags": [
             "Mock"
@@ -723,6 +770,7 @@
           "name": "guard-motion",
           "gem_name": "guard-motion",
           "url": "https://github.com/mordaroso/guard-motion",
+          "github": "mordaroso/guard-motion",
           "description": "Guard::Motion automatically run your RubyMotion specs (much like autotest)",
           "tags": [
             "Spec"
@@ -735,6 +783,7 @@
           "name": "motion-instabug",
           "gem_name": "motion-instabug",
           "url": "https://github.com/bmichotte/motion-instabug",
+          "github": "bmichotte/motion-instabug",
           "description": "motion-instabug allows RubyMotion projects to easily embed the Instabug SDK and be submitted to the Instabug platform.",
           "tags": [
             "Debug",
@@ -753,6 +802,7 @@
           "name": "IB",
           "gem_name": "ib",
           "url": "https://github.com/yury/ib",
+          "github": "yury/ib",
           "description": "RubyMotion Interface Builder support, including outlets and actions.",
           "tags": [
             "Interface Builder"
@@ -766,6 +816,7 @@
           "name": "motion-schemes",
           "gem_name": "motion-schemes",
           "url": "https://github.com/siuying/motion-schemes",
+          "github": "siuying/motion-schemes",
           "description": "Expand RubyMotion build system to support building multiple apps from one project.",
           "tags": [
             "Build"
@@ -778,6 +829,7 @@
           "name": "motion-config-vars",
           "gem_name": "motion-config-vars",
           "url": "https://github.com/jamescallmebrent/motion-config-vars",
+          "github": "jamescallmebrent/motion-config-vars",
           "description": "Heroku-style environment configuration for RubyMotion.",
           "tags": [
             "Environment",
@@ -793,6 +845,7 @@
           "name": "MotionBundler",
           "gem_name": "motion-bundler",
           "url": "https://github.com/archan937/motion-bundler",
+          "github": "archan937/motion-bundler",
           "description": "Require and mock Ruby gems (including their dependencies) within RubyMotion applications.",
           "tags": [
             "Build",
@@ -806,6 +859,7 @@
           "name": "motion-xray",
           "gem_name": "motion-xray",
           "url": "https://github.com/colinta/motion-xray",
+          "github": "colinta/motion-xray",
           "description": "An iOS Inspector that runs inside your app, so you can debug and analyze from your device in real-world situations.",
           "tags": [
             "Inspector",
@@ -820,6 +874,7 @@
           "name": "motion-sparkle",
           "gem_name": "motion-sparkle",
           "url": "https://github.com/webcracy/motion-sparkle",
+          "github": "webcracy/motion-sparkle",
           "description": "motion-sparkle makes it easy to use Sparkle with your RubyMotion projects",
           "tags": [
             "Distribution",
@@ -836,6 +891,7 @@
           "name": "motion-env",
           "gem_name": "motion-env",
           "url": "https://github.com/usepropeller/motion-env",
+          "github": "usepropeller/motion-env",
           "description": "Sync ENV variables between Rakefile and RubyMotion",
           "tags": [
             "Build",
@@ -850,6 +906,7 @@
           "name": "motion-screenshots",
           "gem_name": "motion-screenshots",
           "url": "https://github.com/usepropeller/motion-screenshots",
+          "github": "usepropeller/motion-screenshots",
           "description": "Automatic screenshots for your RubyMotion apps",
           "tags": [
             "Screenshots",
@@ -864,6 +921,7 @@
           "name": "motion-launchimages",
           "gem_name": "motion-launchimages",
           "url": "https://github.com/brendanjcaffrey/motion-launchimages",
+          "github": "brendanjcaffrey/motion-launchimages",
           "description": "Automate taking your RubyMotion launch images",
           "tags": [
             "Screenshots",
@@ -878,6 +936,7 @@
           "name": "motion-my_env",
           "gem_name": "motion-my_env",
           "url": "https://github.com/ainame/motion-my_env",
+          "github": "ainame/motion-my_env",
           "description": "Simple environment variable solution for RubyMotion",
           "tags": [
             "Build",
@@ -892,6 +951,7 @@
           "name": "motion-reveal",
           "gem_name": "motion-reveal",
           "url": "https://github.com/diogoandre/motion-reveal",
+          "github": "diogoandre/motion-reveal",
           "description": "Easy way to add the Reveal framework to your Rubymotion project",
           "tags": [
             "Inspector",
@@ -905,6 +965,7 @@
           "name": "motion-maven",
           "gem_name": "motion-maven",
           "url": "https://github.com/HipByte/motion-maven",
+          "github": "HipByte/motion-maven",
           "description": "motion-maven lets you automatically manage 3rd-party Java dependencies in RubyMotion for Android projects using Maven",
           "tags": [
             "Dependencies",
@@ -924,6 +985,7 @@
           "name": "AFMotion",
           "gem_name": "afmotion",
           "url": "https://github.com/clayallsopp/afmotion",
+          "github": "clayallsopp/afmotion",
           "description": "A RubyMotion wrapper for AFNetworking.",
           "tags": [
             "HTTP"
@@ -936,6 +998,7 @@
           "name": "Motion-Plot",
           "gem_name": "motion-plot",
           "url": "https://github.com/toamitkumar/motion-plot",
+          "github": "toamitkumar/motion-plot",
           "description": "A RubyMotion wrapper for CorePlot.",
           "tags": [
             "Charts",
@@ -950,6 +1013,7 @@
           "name": "ParseModel",
           "gem_name": "ParseModel",
           "url": "https://github.com/adelevie/ParseModel",
+          "github": "adelevie/ParseModel",
           "description": "An Active Record pattern for your Parse models.",
           "tags": [
             "Models",
@@ -964,6 +1028,7 @@
           "name": "motion-awesome",
           "gem_name": "motion-awesome",
           "url": "https://github.com/derailed/motion-awesome",
+          "github": "derailed/motion-awesome",
           "description": "DSL to easily create buttons and labels using the wonderful font-awesome library.",
           "tags": [
             "Font Awesome",
@@ -978,6 +1043,7 @@
           "name": "Motion Parse",
           "gem_name": "motion-parse",
           "url": "https://github.com/tkadauke/motion-parse",
+          "github": "tkadauke/motion-parse",
           "description": "Thin wrapper around the Parse SDK for RubyMotion.",
           "tags": [
             "HTTP",
@@ -992,6 +1058,7 @@
           "name": "Parsistence",
           "gem_name": "Parsistence",
           "url": "https://github.com/clearsightstudio/Parsistence",
+          "github": "clearsightstudio/Parsistence",
           "description": "A Parse.com wrapper similar to persistence.js.",
           "tags": [
             "Models",
@@ -1006,6 +1073,7 @@
           "name": "Twittermotion",
           "gem_name": "twittermotion",
           "url": "https://github.com/clayallsopp/twittermotion",
+          "github": "clayallsopp/twittermotion",
           "description": "RubyMotion wrapper for the iOS Twitter API.",
           "tags": [
             "Twitter"
@@ -1018,6 +1086,7 @@
           "name": "motion-state-machine",
           "gem_name": "motion-state-machine",
           "url": "https://github.com/opyh/motion-state-machine",
+          "github": "opyh/motion-state-machine",
           "description": "A Grand Central-aware, simple syntax for state machines.",
           "tags": [
             "Views"
@@ -1030,6 +1099,7 @@
           "name": "motion-ocr",
           "gem_name": "motion-ocr",
           "url": "https://github.com/ferdev/motion-ocr",
+          "github": "ferdev/motion-ocr",
           "description": "A RubyMotion wrapper for the OCR engine Tesseract.",
           "tags": [
             "OCR"
@@ -1042,6 +1112,7 @@
           "name": "motion-addressbook",
           "gem_name": "motion-addressbook",
           "url": "https://github.com/alexrothenberg/motion-addressbook",
+          "github": "alexrothenberg/motion-addressbook",
           "description": "A RubyMotion wrapper around the iOS & OSX Address Book frameworks.",
           "tags": [
             "AddressBookUI"
@@ -1054,6 +1125,7 @@
           "name": "motionscan",
           "gem_name": "motionscan",
           "url": "https://github.com/jjaffeux/Motionscan",
+          "github": "jjaffeux/Motionscan",
           "description": "A RubyMotion wrapper around the image recognition SDK of Moodstocks.com.",
           "tags": [
             "Image Recognition",
@@ -1069,6 +1141,7 @@
           "name": "MapKitWrapper",
           "gem_name": "map-kit-wrapper",
           "url": "https://github.com/weibel/MapKitWrapper",
+          "github": "weibel/MapKitWrapper",
           "description": "Make dealing with MapKit less painful for RubyMotion.",
           "tags": [
             "MapKit",
@@ -1082,6 +1155,7 @@
           "name": "can_i",
           "gem_name": "can_i",
           "url": "https://github.com/macfanatic/can_i",
+          "github": "macfanatic/can_i",
           "description": "A RubyMotion wrapper providing a simple DSL for role authorization, similar to the CanCan gem.",
           "tags": [
             "ACL",
@@ -1095,6 +1169,7 @@
           "name": "motion-inappmail",
           "gem_name": "motion-inappmail",
           "url": "https://github.com/Swatto/motion-inappmail",
+          "github": "Swatto/motion-inappmail",
           "description": "A RubyMotion wrapper to use the email composer in your app.",
           "tags": [
             "MessageUI",
@@ -1109,6 +1184,7 @@
           "name": "MotionPanel",
           "gem_name": "motion_panel",
           "url": "https://github.com/tombroomfield/motion_panel",
+          "github": "tombroomfield/motion_panel",
           "description": "A native RubyMotion wrapper around the Mixpanel API.",
           "tags": [
             "API",
@@ -1123,6 +1199,7 @@
           "name": "Joybox",
           "gem_name": "joybox",
           "url": "https://github.com/rubymotion/Joybox",
+          "github": "rubymotion/Joybox",
           "description": "Cocos2D & Box2D Wrapper for RubyMotion.",
           "tags": [
             "Video Games",
@@ -1138,6 +1215,7 @@
           "name": "Helu",
           "gem_name": "helu",
           "url": "https://github.com/ivanacostarubio/helu",
+          "github": "ivanacostarubio/helu",
           "description": "A RubyMotion wrapper for the Store Kit Framework",
           "tags": [
             "StoreKit",
@@ -1150,7 +1228,8 @@
         {
           "name": "motion-acknowledgements",
           "gem_name": "motion-acknowledgements",
-          "url": "https://github.com/MohawkApps/motion-acknowledgements",
+          "url": "https://github.com/OTGApps/motion-acknowledgements",
+          "github": "OTGApps/motion-acknowledgements",
           "description": "This gem makes it easy to include the CocoaPods acknowledgements file in your application.",
           "tags": [
             "CocoaPods",
@@ -1165,6 +1244,7 @@
           "name": "motion-settings-bundle",
           "gem_name": "motion-settings-bundle",
           "url": "https://github.com/qrush/motion-settings-bundle",
+          "github": "qrush/motion-settings-bundle",
           "description": "Create a Settings.bundle for your RubyMotion app",
           "tags": [
             "Settings"
@@ -1177,6 +1257,7 @@
           "name": "Motion-Social",
           "gem_name": "motion-social",
           "url": "https://github.com/ivanacostarubio/motion-social",
+          "github": "ivanacostarubio/motion-social",
           "description": "Wrapper around the Social Framework",
           "tags": [
             "Social"
@@ -1189,6 +1270,7 @@
           "name": "motion-net-service",
           "gem_name": "motion-net-service",
           "url": "https://github.com/fearoffish/motion-net-service",
+          "github": "fearoffish/motion-net-service",
           "description": "A RubyMotion wrapper providing a simple DSL for the Bonjour (NSNetService) zero configuration network protocol.",
           "tags": [
             "Bonjour",
@@ -1202,6 +1284,7 @@
           "name": "motion-firebase",
           "gem_name": "motion-firebase",
           "url": "https://github.com/colinta/motion-firebase",
+          "github": "colinta/motion-firebase",
           "description": "A RubyMotion wrapper for the Firebase SDK.",
           "tags": [
             "Firebase",
@@ -1215,6 +1298,7 @@
           "name": "simple_si",
           "gem_name": "simple_si",
           "url": "https://github.com/forrestgrant/simple_si",
+          "github": "forrestgrant/simple_si",
           "description": "A RubyMotion wrapper for SIAlertView",
           "tags": [
             "Alerts"
@@ -1227,6 +1311,7 @@
           "name": "motion-phrase",
           "gem_name": "motion-phrase",
           "url": "https://github.com/phrase/motion-phrase",
+          "github": "phrase/motion-phrase",
           "description": "Connect your RubyMotion project with <a href=\"https://phraseapp.com\" target=\"_blank\">PhraseApp</a> for easy app internationalization. Translatable strings are exported while browsing the app and then managable through the PhraseApp translation editor.",
           "tags": [
             "i18n",
@@ -1241,6 +1326,7 @@
           "description": "Making accessibility accessible. RubyMotion Wrappers around the UIAccessibility protocols. Easily interact with Apple's impressive array of assistive technologies, including VoiceOver.",
           "gem_name": "motion-accessibility",
           "url": "https://github.com/austinseraphin/motion-accessibility",
+          "github": "austinseraphin/motion-accessibility",
           "tags": [
             "Accessibility",
             "Voiceover"
@@ -1254,6 +1340,7 @@
           "description": "RubyMotion wrapper for SVProgressHUD",
           "gem_name": "motion-blitz",
           "url": "https://github.com/dblandin/motion-blitz",
+          "github": "dblandin/motion-blitz",
           "tags": [
             "Alerts",
             "Progress",
@@ -1268,6 +1355,7 @@
           "description": "RubyMotion wrapper for Objection",
           "gem_name": "motion-objection",
           "url": "https://github.com/atomicobject/motion-objection",
+          "github": "atomicobject/motion-objection",
           "tags": [
             "Dependency Injection"
           ],
@@ -1279,6 +1367,7 @@
           "name": "RackMotion",
           "gem_name": "RackMotion",
           "url": "https://github.com/drewbug/RackMotion",
+          "github": "drewbug/RackMotion",
           "description": "Intercept and alter HTTP requests and responses in RubyMotion",
           "tags": [
             "HTTP"
@@ -1292,6 +1381,7 @@
           "description": "Notifications for the statusbar.",
           "gem_name": "status_bar",
           "url": "https://github.com/holgersindbaek/StatusBar",
+          "github": "holgersindbaek/StatusBar",
           "tags": [
             "Alerts",
             "Progress",
@@ -1305,7 +1395,8 @@
           "name": "motion-csv",
           "description": "A RubyMotion friendly CSV parser gem.",
           "gem_name": "motion-csv",
-          "url": "https://github.com/MohawkApps/motion-csv",
+          "url": "https://github.com/OTGApps/motion-csv",
+          "github": "OTGApps/motion-csv",
           "tags": [
             "CSV"
           ],
@@ -1317,7 +1408,8 @@
           "name": "motion-takeoff",
           "description": "A gem for scheduling stuff. You can use motion-takeoff to display messages at certain launch counts and schedule local notifications.",
           "gem_name": "motion-takeoff",
-          "url": "https://github.com/MohawkApps/motion-takeoff",
+          "url": "https://github.com/OTGApps/motion-takeoff",
+          "github": "OTGAps/motion-takeoff",
           "tags": [
             "Reminders",
             "UILocalNotification",
@@ -1332,6 +1424,7 @@
           "description": "A gem providing a DSL allowing you to schedule events on specific launches of your application.  'motion-takeoff' only supplies displaying an alert, this gem executes any code block.",
           "gem_name": "motion-launchpad",
           "url": "https://github.com/macfanatic/motion-launchpad",
+          "github": "macfanatic/motion-launchpad",
           "tags": [
             "Scheduling"
           ],
@@ -1344,6 +1437,7 @@
           "description": "A RubyMotion StoreKit Wrapper that allows you to buy, restore and get product info on your in app purchases and subscriptions.",
           "gem_name": "rm_vendor",
           "url": "https://github.com/holgersindbaek/Vendor",
+          "github": "holgersindbaek/Vendor",
           "tags": [
             "StoreKit",
             "In App Purchase"
@@ -1356,6 +1450,7 @@
           "name": "Motion-Wiretap",
           "gem_name": "motion-wiretap",
           "url": "https://github.com/colinta/motion-wiretap",
+          "github": "colinta/motion-wiretap",
           "description": "A wrapper for KVO, gestures, UIControl events, and procs. Okay okay it's pretty much ReactiveCocoa in RubyMotion.",
           "tags": [
             "KVO",
@@ -1370,6 +1465,7 @@
         {
           "name": "motion-dynamic-type",
           "url": "https://github.com/FluffyJack/motion-dynamic-type",
+          "github": "FluffyJack/motion-dynamic-type",
           "description": "Simplifying even further iOS 7's Dynamic Type",
           "tags": [
             "Fonts"
@@ -1382,6 +1478,7 @@
           "name": "meteor-motion",
           "gem_name": "meteor-motion",
           "url": "https://github.com/whitesmith/meteor-motion",
+          "github": "whitesmith/meteor-motion",
           "description": "A wrapper for Meteor DDP with support for Motion Model",
           "tags": [
             "Meteor",
@@ -1398,6 +1495,7 @@
           "name": "motion.h",
           "gem_name": "motion.h",
           "url": "https://github.com/kastiglione/motion.h",
+          "github": "kastiglione/motion.h",
           "description": "Expose iOS and OS X system libraries in RubyMotion.",
           "tags": [
             "BridgeSupport"
@@ -1411,6 +1509,7 @@
           "name": "motion-sqlite3",
           "gem_name": "motion-sqlite3",
           "url": "https://github.com/mattgreen/motion-sqlite3",
+          "github": "mattgreen/motion-sqlite3",
           "description": "A minimal wrapper over the SQLite 3 C API for RubyMotion",
           "tags": [
             "SQLite",
@@ -1424,6 +1523,7 @@
           "name": "motion-egg",
           "gem_name": "motion-egg",
           "url": "https://github.com/GantMan/motion-egg",
+          "github": "GantMan/motion-egg",
           "description": "Add an Easter egg to your app",
           "tags": [
             "Easter Egg"
@@ -1436,6 +1536,7 @@
           "name": "under-os-image",
           "gem_name": "under-os-image",
           "url": "https://github.com/under-os/under-os-image",
+          "github": "under-os/under-os-image",
           "description": "The new simplified images processing API for the http://under-os.com/ project",
           "tags": [
             "UnderOS",
@@ -1450,6 +1551,7 @@
           "name": "motion-distance",
           "gem_name": "motion-distance",
           "url": "https://github.com/willrax/motion-distance",
+          "github": "willrax/motion-distance",
           "description": "Easy distance tracking for RubyMotion projects.",
           "tags": [
             "CoreLocation"
@@ -1462,6 +1564,7 @@
           "name": "motion-giphy",
           "gem_name": "motion-giphy",
           "url": "https://github.com/willrax/motion-giphy",
+          "github": "willrax/motion-giphy",
           "description": "A nice wrapper around the http://giphy.com API.",
           "tags": [
             "API"
@@ -1474,6 +1577,7 @@
           "name": "motion-installr",
           "gem_name": "motion-installr",
           "url": "https://github.com/FluffyJack/motion-installr",
+          "github": "FluffyJack/motion-installr",
           "description": "Ad-hoc deployment using the amazing Installr service! https://www.installrapp.com/",
           "tags": [
             "Installr",
@@ -1488,6 +1592,7 @@
           "name": "motion-capture",
           "gem_name": "motion-capture",
           "url": "https://github.com/dblandin/motion-capture",
+          "github": "dblandin/motion-capture",
           "description": "An AVFoundation wrapper to support custom camera controllers.",
           "tags": ["AVFoundation", "Camera", "UIImage"],
           "platforms": ["iOS"]
@@ -1496,6 +1601,7 @@
           "name": "MotionPaddle",
           "gem_name": "motion-paddle",
           "url": "https://github.com/henderea/motion-paddle",
+          "github": "henderea/motion-paddle",
           "description": "A RubyMotion gem for the Paddle framework",
           "tags": [
             "Paddle",
@@ -1509,6 +1615,7 @@
           "name": "purple-monkey",
           "gem_name": "purple-monkey",
           "url": "https://github.com/hboon/purple-monkey",
+          "github": "hboon/purple-monkey",
           "description": "Barebones wrapper for working with MailChimp on iOS/OS X using RubyMotion",
           "tags": [
             "HTTP",
@@ -1523,6 +1630,7 @@
           "name": "ProMotion-iap",
           "gem_name": "ProMotion-iap",
           "url": "https://github.com/clearsightstudio/ProMotion-iap",
+          "github": "clearsightstudio/ProMotion-iap",
           "description": "ProMotion-iap is in-app purchase notification support for the popular RubyMotion gem ProMotion.",
           "tags": [
             "In App Purchase",
@@ -1537,6 +1645,7 @@
           "name": "ProMotion-menu",
           "gem_name": "ProMotion-menu",
           "url": "https://github.com/clearsightstudio/ProMotion-menu",
+          "github": "clearsightstudio/ProMotion-menu",
           "description": "RubyMotion gem allowing you to easily setup a facebook or Path style hidden slide menu easily with the ProMotion gem.",
           "tags": [
             "SlideMenu",
@@ -1550,6 +1659,7 @@
           "name": "ProMotion-push",
           "gem_name": "ProMotion-push",
           "url": "https://github.com/clearsightstudio/ProMotion-push",
+          "github": "clearsightstudio/ProMotion-push",
           "description": "Push notification support for ProMotion.",
           "tags": [
             "Push Notifications",
@@ -1563,6 +1673,7 @@
           "name": "ProMotion-map",
           "gem_name": "ProMotion-map",
           "url": "https://github.com/clearsightstudio/ProMotion-map",
+          "github": "clearsightstudio/ProMotion-map",
           "description": "ProMotion::MapScreen gem. Extracted from ProMotion core.",
           "tags": [
             "MapScreen",
@@ -1577,6 +1688,7 @@
           "name": "apex",
           "gem_name": "apex",
           "url": "https://github.com/clearsightstudio/apex",
+          "github": "clearsightstudio/apex",
           "description": "Apex is a RubyMotion web framework for OS X. It uses GCDWebServer under the hood and provides a Sinatra-like router and DSL.",
           "tags": [
             "GCDWebServer",
@@ -1591,6 +1703,7 @@
           "name": "Toaster",
           "gem_name": "toaster",
           "url": "https://github.com/jamonholmgren/toaster",
+          "github": "jamonholmgren/toaster",
           "description": "RubyMotion-android 'Toast' gem. Makes working with Android toasts really easy!",
           "tags": [
             "Notifications"
@@ -1603,6 +1716,7 @@
           "name": "motion-aws",
           "gem_name": "motion-aws",
           "url": "https://github.com/jamonholmgren/motion-aws",
+          "github": "jamonholmgren/motion-aws",
           "description": "Provides iOS and OSX connectivity to AWS services.",
           "tags": [
             "AWS",
@@ -1618,6 +1732,7 @@
           "name": "Medic",
           "gem_name": "medic",
           "url": "https://github.com/ryanlntn/medic",
+          "github": "ryanlntn/medic",
           "description": "Is HealthKit's verbose and convoluted API driving you mad? Quick! You need a medic!",
           "tags": [
             "HealthKit"
@@ -1630,6 +1745,7 @@
           "name": "Indoctrinator",
           "gem_name": "indoctrinator",
           "url": "https://github.com/ryanlntn/indoctrinator",
+          "github": "ryanlntn/indoctrinator",
           "description": "Indoctrinator is a RubyMotion gem that provides a Path style tutorial view for iOS applications.",
           "tags": [
             "Tutorial",
@@ -1648,6 +1764,7 @@
           "name": "MotionTemplate",
           "gem_name": false,
           "url": "https://github.com/IconoclastLabs/MotionTemplate",
+          "github": "IconoclastLabs/MotionTemplate",
           "description": "A clean RubyMotion project for quickly templating a styled application.",
           "tags": [
             "Design"
@@ -1660,6 +1777,7 @@
           "name": "promotion-template",
           "gem_name": false,
           "url": "https://github.com/jamonholmgren/promotion-template",
+          "github": "jamonholmgren/promotion-template",
           "description": "Utlize the bells and whistles of ProMotion to hit the ground running.",
           "tags": [
             "Design",
@@ -1673,6 +1791,7 @@
           "name": "rubymotion_generators",
           "gem_name": "rubymotion_generators",
           "url": "https://github.com/andyw8/rubymotion_generators",
+          "github": "andyw8/rubymotion_generators",
           "description": "Provides boilerplate code templates for RubyMotion",
           "tags": [
             "Design",
@@ -1691,6 +1810,7 @@
           "name": "RubyMotionSamples",
           "gem_name": false,
           "url": "https://github.com/HipByte/RubyMotionSamples",
+          "github": "HipByte/RubyMotionSamples",
           "description": "A collection of RubyMotion applications for code samples. http://www.rubymotion.com",
           "tags": [
             "Samples"
@@ -1703,6 +1823,7 @@
           "name": "rubymotion-android-cookbook",
           "gem_name": false,
           "url": "https://github.com/IconoclastLabs/rubymotion-android-cookbook",
+          "github": "IconoclastLabs/rubymotion-android-cookbook",
           "description": "Awesome rm cookbook examples for android",
           "tags": [
             "Samples"
