@@ -18,4 +18,5 @@
 .DS_Store
 
 # Ignore the download counts file
-download_counts.json
+star_counts.json
+.oauth_token

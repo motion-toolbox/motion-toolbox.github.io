@@ -15,53 +15,65 @@ module ToolboxHelpers
     }.flatten.uniq.sort_by(&:downcase)
   end
 
-  def download_counts
-    @download_counts ||= begin
-      File.open("download_counts.json", "r") do |f|
+  def star_counts
+    @star_counts ||= begin
+      File.open("star_counts.json", "r") do |f|
         JSON.parse(f.read)
       end
     end
   end
 
-  def download_count(gem_name)
-    download_counts[gem_name].si
+  def star_count(github)
+    puts "star_count: #{github} - #{star_counts[github]}"
+    (star_counts[github] || 0).si
   end
 
   def sort_by_downloads(wrappers)
-    keys = download_counts.keys
+    keys = star_counts.keys
 
     wrappers.sort do |left, right|
-      (keys.index(left['gem_name']) || 999) <=> (keys.index(right['gem_name']) || 999)
+      (keys.index(left['github']) || 999) <=> (keys.index(right['github']) || 999)
     end
   end
 end
 
-def get_download_counts!
-  puts "Getting download counts from rubygems.org"
+def get_star_counts!
+  puts "Getting star counts from Github"
   progress = ProgressBar.create
-  download_counts = {}
+  star_counts = {}
 
-  # Get all unique gem names
-  gem_names = File.open("data.json", "r") do |f|
+  # Get all unique github urls
+  repos_names = File.open("data.json", "r") do |f|
     JSON.parse(f.read)["categories"]
-  end.map{|cat| cat['wrappers'].map{|w| w['gem_name'] } }.flatten.uniq.compact
-  progress.total = gem_names.count
+  end.map{|cat| cat['wrappers'].map{|w| w['github'] } }.flatten.uniq.compact
+  progress.total = repos_names.count
+  puts repos_names
+  puts repos_names.count
 
   # Grab the download count from rubygems.org
-  gem_names.each_with_index do |name, index|
-    gem_info = Gems.info(name)
-    progress.increment
-    download_counts[name] = gem_info ? gem_info['downloads'].to_i : 0
+  if File.exist?(".oauth_token")
+    github = Github.new(oauth_token: File.read(".oauth_token").chomp)
+  else
+    puts "Please set up a github personal token and put it in the .oauth_token file."
+    puts "\nhttps://github.com/settings/tokens\n\n"
+    abort
   end
 
-  File.open("download_counts.json", "w") do |file|
-    file.write Hash[download_counts.sort_by{|k, v| v}.reverse].to_json
+  repos_names.each_with_index do |name, index|
+    repo_parts = name.split("/")
+    repo_info = github.repos(user: repo_parts[0], repo: repo_parts[1]).get
+    star_counts[name] = repo_info.stargazers_count
+    progress.increment
+  end
+
+  File.open("star_counts.json", "w") do |file|
+    file.write Hash[star_counts.sort_by{|k, v| v}.reverse].to_json
   end
 
   progress.finish
 end
 
-get_download_counts! unless ENV['SKIP_GEMS']
+get_star_counts! unless ENV['SKIP_GITHUB']
 
 helpers ToolboxHelpers
 
