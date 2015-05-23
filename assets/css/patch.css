@@ -28,17 +28,15 @@
   font-family: 'BrandonGrotesque-Regular';
   src: url("../fonts/2B7454_0_0.eot");
   src: url("../fonts/2B7454_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2B7454_0_0.woff") format("woff"), url("../fonts/2B7454_0_0.ttf") format("truetype"); }
-
 @font-face {
   font-family: 'BrandonGrotesque-Light';
   src: url("../fonts/2B7454_1_0.eot");
   src: url("../fonts/2B7454_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2B7454_1_0.woff") format("woff"), url("../fonts/2B7454_1_0.ttf") format("truetype"); }
-
 /* line 50, ../assets/css/patch.scss */
 body {
   font-size: 15px;
   line-height: 22px;
-  background: #f2f2f2;
+  background: #F2F2F2;
   color: #333333;
   font-family: "BrandonGrotesque-Regular", Avenir, Arial, sans-serif; }
 
@@ -48,7 +46,7 @@ strong, h1, h2, h3, h4, h5 {
 
 /* line 62, ../assets/css/patch.scss */
 a {
-  color: #3071b3; }
+  color: #3071B3; }
 
 /* line 66, ../assets/css/patch.scss */
 code {
@@ -121,7 +119,7 @@ code {
       line-height: 36px; }
   /* line 139, ../assets/css/patch.scss */
   .wrapper-info .wrapper-platforms {
-    color: #1abc9c;
+    color: #1ABC9C;
     margin-bottom: 8px; }
     /* line 143, ../assets/css/patch.scss */
     .wrapper-info .wrapper-platforms .platform {
@@ -191,12 +189,12 @@ code {
     margin: 0px;
     margin-right: 10px;
     font-size: 22px;
-    color: #9a9a9a;
+    color: #9A9A9A;
     line-height: 31px; }
 
 /* line 232, ../assets/css/patch.scss */
 .filters {
-  background: #f2f2f2; }
+  background: #F2F2F2; }
   /* line 235, ../assets/css/patch.scss */
   .filters table {
     background: white;
@@ -206,7 +204,7 @@ code {
     /* line 241, ../assets/css/patch.scss */
     .filters table tr {
       border-bottom-width: 2px;
-      border-bottom-color: #f2f2f2;
+      border-bottom-color: #F2F2F2;
       border-bottom-style: solid; }
     /* line 247, ../assets/css/patch.scss */
     .filters table tr td:last-child {
@@ -216,7 +214,7 @@ code {
       background: white;
       text-align: center;
       padding: 20px 0px;
-      border-right-color: #f2f2f2;
+      border-right-color: #F2F2F2;
       border-right-width: 2px;
       border-right-style: solid;
       width: 33%; }
@@ -226,24 +224,24 @@ code {
 
 /* line 268, ../assets/css/patch.scss */
 .filter-platforms td {
-  color: #1abc9c; }
+  color: #1ABC9C; }
   /* line 270, ../assets/css/patch.scss */
   .filter-platforms td.active {
-    background: #1abc9c;
+    background: #1ABC9C;
     color: white; }
 
 /* line 268, ../assets/css/patch.scss */
 .filter-tags td {
-  color: #e74c3c; }
+  color: #E74C3C; }
   /* line 270, ../assets/css/patch.scss */
   .filter-tags td.active {
-    background: #e74c3c;
+    background: #E74C3C;
     color: white; }
 
 /* line 285, ../assets/css/patch.scss */
 .filter-group-title {
   font-size: 13px;
-  color: #9a9a9a;
+  color: #9A9A9A;
   line-height: 19px;
   padding-left: 9px;
   margin-top: 17px;
