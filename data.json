@@ -615,6 +615,7 @@
           "name": "purplish-layout",
           "gem_name": "purplish-layout",
           "url": "http://hboon.com/purplish-layout/",
+          "github": "hboon/purplish-layout",
           "description": "A RubyMotion wrapper for Auto Layout on iOS and OS X",
           "tags": [
             "Views",
@@ -642,6 +643,7 @@
           "name": "Ion_in_Motion",
           "gem_name": "ion_in_motion",
           "url": "https://github.com/Brian-Egan/ion_in_motion",
+          "github": "Brian-Egan/ion_in_motion",
           "description": "Ridiculously easy use of IonIcons in UILabels, UIButtons, UIImages and more. IonIcons: http://ionicons.com/",
           "tags": [
             "Views",
