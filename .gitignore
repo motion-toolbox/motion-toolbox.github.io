@@ -20,3 +20,4 @@
 # Ignore the download counts file
 star_counts.json
 .oauth_token
+download_counts.json
