@@ -90,7 +90,7 @@
           "gem_name": "ruby_motion_query",
           "url": "http://infinitered.com/rmq",
           "github": "infinitered/rmq",
-          "description": "A light, non-magical, non-polluting, jQuery-like library",
+          "description": "UI Library for RubyMotion. Fast, non-polluting, & chaining; it’s like jQuery for RubyMotion + stylesheets, animations, events, and more.",
           "tags": [
             "Controllers",
             "Views",
