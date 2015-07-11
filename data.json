@@ -639,7 +639,8 @@
           "platforms": [
             "iOS"
           ]
-        },{
+        },
+        {
           "name": "Ion_in_Motion",
           "gem_name": "ion_in_motion",
           "url": "https://github.com/Brian-Egan/ion_in_motion",
@@ -651,6 +652,25 @@
             "Style",
             "Ion Icons",
             "Buttons"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "Moticons",
+          "gem_name": "moticons",
+          "url": "https://github.com/andrewhavens/moticons",
+          "github": "andrewhavens/moticons",
+          "description": "The easiest way to add icons to your RubyMotion app.",
+          "tags": [
+            "Views",
+            "Icons",
+            "Style",
+            "Font Awesome",
+            "Ion Icons",
+            "UIImage",
+            "NSAttributedString"
           ],
           "platforms": [
             "iOS"
