@@ -125,8 +125,8 @@
         {
           "name": "ProMotion",
           "gem_name": "ProMotion",
-          "url": "https://github.com/clearsightstudio/ProMotion",
-          "github": "clearsightstudio/ProMotion",
+          "url": "https://github.com/infinitered/ProMotion",
+          "github": "infinitered/ProMotion",
           "description": "A full featured RubyMotion framework that makes iPhone development less like Objective-C and more like Ruby, designed to get up and running fast.",
           "tags": [
             "ProMotion",
@@ -629,8 +629,8 @@
         {
           "name": "ProMotion-form",
           "gem_name": "ProMotion-form",
-          "url": "https://github.com/clearsightstudio/ProMotion-form",
-          "github": "clearsightstudio/ProMotion-form",
+          "url": "https://github.com/infinitered/ProMotion-form",
+          "github": "infinitered/ProMotion-form",
           "description": "ProMotion::FormScreen - forms the ProMotion way!",
           "tags": [
             "Forms",
@@ -1094,8 +1094,8 @@
         {
           "name": "Parsistence",
           "gem_name": "Parsistence",
-          "url": "https://github.com/clearsightstudio/Parsistence",
-          "github": "clearsightstudio/Parsistence",
+          "url": "https://github.com/infinitered/Parsistence",
+          "github": "infinitered/Parsistence",
           "description": "A Parse.com wrapper similar to persistence.js.",
           "tags": [
             "Models",
@@ -1666,8 +1666,8 @@
         {
           "name": "ProMotion-iap",
           "gem_name": "ProMotion-iap",
-          "url": "https://github.com/clearsightstudio/ProMotion-iap",
-          "github": "clearsightstudio/ProMotion-iap",
+          "url": "https://github.com/infinitered/ProMotion-iap",
+          "github": "infinitered/ProMotion-iap",
           "description": "ProMotion-iap is in-app purchase notification support for the popular RubyMotion gem ProMotion.",
           "tags": [
             "In App Purchase",
@@ -1681,8 +1681,8 @@
         {
           "name": "ProMotion-menu",
           "gem_name": "ProMotion-menu",
-          "url": "https://github.com/clearsightstudio/ProMotion-menu",
-          "github": "clearsightstudio/ProMotion-menu",
+          "url": "https://github.com/infinitered/ProMotion-menu",
+          "github": "infinitered/ProMotion-menu",
           "description": "RubyMotion gem allowing you to easily setup a facebook or Path style hidden slide menu easily with the ProMotion gem.",
           "tags": [
             "SlideMenu",
@@ -1695,8 +1695,8 @@
         {
           "name": "ProMotion-push",
           "gem_name": "ProMotion-push",
-          "url": "https://github.com/clearsightstudio/ProMotion-push",
-          "github": "clearsightstudio/ProMotion-push",
+          "url": "https://github.com/infinitered/ProMotion-push",
+          "github": "infinitered/ProMotion-push",
           "description": "Push notification support for ProMotion.",
           "tags": [
             "Push Notifications",
@@ -1709,8 +1709,8 @@
         {
           "name": "ProMotion-map",
           "gem_name": "ProMotion-map",
-          "url": "https://github.com/clearsightstudio/ProMotion-map",
-          "github": "clearsightstudio/ProMotion-map",
+          "url": "https://github.com/infinitered/ProMotion-map",
+          "github": "infinitered/ProMotion-map",
           "description": "ProMotion::MapScreen gem. Extracted from ProMotion core.",
           "tags": [
             "MapScreen",
@@ -1724,8 +1724,8 @@
         {
           "name": "apex",
           "gem_name": "apex",
-          "url": "https://github.com/clearsightstudio/apex",
-          "github": "clearsightstudio/apex",
+          "url": "https://github.com/infinitered/apex",
+          "github": "infinitered/apex",
           "description": "Apex is a RubyMotion web framework for OS X. It uses GCDWebServer under the hood and provides a Sinatra-like router and DSL.",
           "tags": [
             "GCDWebServer",
@@ -1787,6 +1787,19 @@
           "tags": [
             "Tutorial",
             "Slideshow"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "Crittercism",
+          "gem_name": "crittercism",
+          "url": "https://github.com/andrewhavens/crittercism",
+          "github": "andrewhavens/crittercism",
+          "description": "Easily add crash reporting to your RubyMotion app with Crittercism.",
+          "tags": [
+            "Crash Reporting"
           ],
           "platforms": [
             "iOS"
