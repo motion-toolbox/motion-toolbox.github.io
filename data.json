@@ -675,6 +675,38 @@
           "platforms": [
             "iOS"
           ]
+        },
+        {
+          "name": "Motion Swipe",
+          "gem_name": "motion-swipe",
+          "url": "https://github.com/dam13n/motion-swipe",
+          "github": "dam13n/motion-swipe",
+          "description": "Tinder-like swipe gem.",
+          "tags": [
+            "Views",
+            "UIViewController",
+            "Swipeable View"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "Motion Floating Action Button",
+          "gem_name": "motion-floating-action-button",
+          "url": "https://github.com/dam13n/motion-floating-action-button",
+          "github": "dam13n/motion-floating-action-button",
+          "description": "Material design floating action button.",
+          "tags": [
+            "Views",
+            "UIViewController",
+            "Buttons",
+            "Gestures",
+            "Screens"
+          ],
+          "platforms": [
+            "iOS"
+          ]
         }
       ]
     },
