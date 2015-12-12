@@ -1836,6 +1836,22 @@
           "platforms": [
             "iOS"
           ]
+        },
+        {
+          "name": "motion-locman",
+          "gem_name": "motion-locman",
+          "url": "https://github.com/premist/motion-locman",
+          "github": "premist/motion-locman",
+          "description": "Simple and easy location monitoring for RubyMotion",
+          "tags": [
+            "Location",
+            "CoreLocation",
+            "CLLocation",
+            "CLVisit"
+          ],
+          "platforms": [
+            "iOS"
+          ]
         }
       ]
     },
