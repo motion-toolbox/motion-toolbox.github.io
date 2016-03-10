@@ -269,6 +269,21 @@
             "iOS",
             "OS X"
           ]
+        },
+        {
+          "name": "motion-html",
+          "gem_name": "motion-html",
+          "url": "https://github.com/andrewhavens/motion-html",
+          "github": "andrewhavens/motion-html",
+          "description": "Parse and traverse HTML in your RubyMotion app. It's like Nokogiri for RubyMotion!",
+          "tags": [
+            "HTML",
+            "HTTP"
+          ],
+          "platforms": [
+            "iOS",
+            "OS X"
+          ]
         }
       ]
     },
