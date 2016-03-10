@@ -1235,6 +1235,22 @@
           ]
         },
         {
+          "name": "motion-authorization",
+          "gem_name": "motion-authorization",
+          "url": "https://github.com/andrewhavens/motion-authorization",
+          "github": "andrewhavens/motion-authorization",
+          "description": "Simple authorization for RubyMotion. Inspired by CanCan and Pundit.",
+          "tags": [
+            "ACL",
+            "Authorization"
+          ],
+          "platforms": [
+            "iOS",
+            "Android",
+            "OS X"
+          ]
+        },
+        {
           "name": "motion-inappmail",
           "gem_name": "motion-inappmail",
           "url": "https://github.com/Swatto/motion-inappmail",
