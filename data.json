@@ -974,7 +974,7 @@
         {
           "name": "motion-env",
           "gem_name": "motion-env",
-          "url": "https://github.comclayallsopp/motion-env",
+          "url": "https://github.com/clayallsopp/motion-env",
           "github": "clayallsopp/motion-env",
           "description": "Sync ENV variables between Rakefile and RubyMotion",
           "tags": [
