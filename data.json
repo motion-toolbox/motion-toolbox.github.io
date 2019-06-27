@@ -1341,6 +1341,21 @@
           ]
         },
         {
+          "name": "motion-appstore",
+          "gem_name": "motion-appstore",
+          "url": "https://github.com/HipByte/motion-appstore",
+          "github": "HipByte/motion-appstore",
+          "description": "A RubyMotion plugin to provide 'validate' and 'upload' commands for iTunes Connect.",
+          "tags": [
+            "CocoaPods",
+            "App Store"
+          ],
+          "platforms": [
+            "iOS",
+            "OS X"
+          ]
+        },
+        {
           "name": "motion-settings-bundle",
           "gem_name": "motion-settings-bundle",
           "url": "https://github.com/qrush/motion-settings-bundle",
