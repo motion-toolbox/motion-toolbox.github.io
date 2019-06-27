@@ -498,8 +498,8 @@
         },
         {
           "name": "motion-stylez",
-          "url": "https://github.com/FluffyJack/motion-stylez",
-          "github": "FluffyJack/motion-stylez",
+          "url": "https://github.com/wndxlori/motion-stylez",
+          "github": "wndxlori/motion-stylez",
           "description": "RubyMotion stylesheet library based off RMQ",
           "tags": [
             "Views",
@@ -512,8 +512,8 @@
         {
           "name": "better_toolbar",
           "gem_name": "better_toolbar",
-          "url": "https://github.com/FluffyJack/better_toolbars",
-          "github": "FluffyJack/better_toolbars",
+          "url": "https://github.com/motioninmotion/better_toolbars",
+          "github": "motioninmotion/better_toolbars",
           "description": "A better way to work with toolbars",
           "tags": [
             "Views",
@@ -541,8 +541,8 @@
         },
         {
           "name": "MIMInputToolbar",
-          "url": "https://github.com/FluffyJack/MIMInputToolbar",
-          "github": "FluffyJack/MIMInputToolbar",
+          "url": "https://github.com/wndxlori/MIMInputToolbar",
+          "github": "wndxlori/MIMInputToolbar",
           "description": "Input accessory view for your UITextFields and UITextViews.",
           "tags": [
             "Views",
@@ -912,8 +912,8 @@
         {
           "name": "motion-config-vars",
           "gem_name": "motion-config-vars",
-          "url": "https://github.com/jamescallmebrent/motion-config-vars",
-          "github": "jamescallmebrent/motion-config-vars",
+          "url": "https://github.com/brenthargrave/motion-config-vars",
+          "github": "brenthargrave/motion-config-vars",
           "description": "Heroku-style environment configuration for RubyMotion.",
           "tags": [
             "Environment",
@@ -1564,8 +1564,8 @@
         },
         {
           "name": "motion-dynamic-type",
-          "url": "https://github.com/FluffyJack/motion-dynamic-type",
-          "github": "FluffyJack/motion-dynamic-type",
+          "url": "https://github.com/wndxlori/motion-dynamic-type",
+          "github": "wndxlori/motion-dynamic-type",
           "description": "Simplifying even further iOS 7's Dynamic Type",
           "tags": [
             "Fonts"
@@ -1676,8 +1676,8 @@
         {
           "name": "motion-installr",
           "gem_name": "motion-installr",
-          "url": "https://github.com/FluffyJack/motion-installr",
-          "github": "FluffyJack/motion-installr",
+          "url": "https://github.com/wndxlori/motion-installr",
+          "github": "wndxlori/motion-installr",
           "description": "Ad-hoc deployment using the amazing Installr service! https://www.installrapp.com/",
           "tags": [
             "Installr",
