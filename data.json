@@ -1883,6 +1883,32 @@
           "platforms": [
             "iOS"
           ]
+        },
+        {
+          "name": "motion-ios-devices",
+          "gem_name": "motion-ios-devices",
+          "url": "https://github.com/astechishin/motion-ios-devices",
+          "github": "astechishin/motion-ios-devices",
+          "description": "A simple Gem that makes building and running a RubyMotion iOS application on a specific device simple.",
+          "tags": [
+            "Device"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "name": "motion-ios-simplesplash",
+          "gem_name": "motion-ios-simplesplash",
+          "url": "https://github.com/astechishin/motion-ios-simplesplash",
+          "github": "astechishin/motion-ios-simplesplash",
+          "description": "Generate a simple splash page to be used in iOS projects.",
+          "tags": [
+            "Launch Screen"
+          ],
+          "platforms": [
+            "iOS"
+          ]
         }
       ]
     },
