@@ -910,6 +910,22 @@
           ]
         },
         {
+          "name": "motion-cocoapods",
+          "gem_name": "motion-cocoapods",
+          "url": "https://github.com/HipByte/motion-cocoapods",
+          "github": "HipByte/motion-cocoapods",
+          "description": "Integrate 3rd-party libraries in RubyMotion for iOS / OS X projects via CocoaPods.",
+          "tags": [
+            "CocoaPods",
+            "Build",
+            "Distribution"
+          ],
+          "platforms": [
+            "iOS",
+            "OS X"
+          ]
+        },
+        {
           "name": "motion-config-vars",
           "gem_name": "motion-config-vars",
           "url": "https://github.com/brenthargrave/motion-config-vars",
@@ -1347,7 +1363,6 @@
           "github": "HipByte/motion-appstore",
           "description": "A RubyMotion plugin to provide 'validate' and 'upload' commands for iTunes Connect.",
           "tags": [
-            "CocoaPods",
             "App Store"
           ],
           "platforms": [
