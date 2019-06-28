@@ -1095,6 +1095,23 @@
           ]
         },
         {
+          "name": "motion-http",
+          "gem_name": "motion-http",
+          "url": "https://github.com/andrewhavens/motion-http",
+          "github": "andrewhavens/motion-http",
+          "description": "A cross-platform HTTP Client for RubyMotion.",
+          "tags": [
+            "HTTP"
+          ],
+          "platforms": [
+            "iOS",
+            "OS X",
+            "tvOS",
+            "watchOS",
+            "Android"
+          ]
+        },
+        {
           "name": "Motion-Plot",
           "gem_name": "motion-plot",
           "url": "https://github.com/toamitkumar/motion-plot",
