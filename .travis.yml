@@ -25,8 +25,11 @@ deploy:
   local_dir: build/
   provider: pages
   skip_cleanup: true
+  deployment_file: true
   github_token: "$GITHUB_TOKEN"
+  committer_from_gh: true
   keep_history: true
+  allow_empty_commit: false
   target_branch: master
   on:
     branch: source
