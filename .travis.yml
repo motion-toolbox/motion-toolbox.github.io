@@ -1,26 +1,36 @@
 language: ruby
-
 rvm:
-  - 2.5.5
-
+- 2.5.5
 branches:
   only:
   - source
-
 env:
   global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - secure: CidqEq7k8GsjRU7hVAOgXAqOATKRyJi3EVUOZUgTwtSwu9Gr/UsemJCtvfyRp1FU1bINeUfz2IUnfFNUFdgtU2wsmB2FgIeHWNMckIPW5JxH9/OG8B20BtqzWQvz8Z7LxZkjhdB3e63xuiUamrAotHNCEdiKHlqBmAGvsR3N/nzeIZi3g3AKBsh0eqnEBEoBMSm8aEt8mH/9wSi9QtGKF0dpTQSmsciHnF9A2IUGwdI3ZnkSMRceugFfbSuWL+6xqxSLRCpEYauftgzOgie15hi7Rx2TAfobm0Zu8ptJQO8031M6ee7vS5U0dNRCI5JnsJ6VsIGYpA6OpdbDcTXSSJl59m4XgspVArHTxYo5xP8ow4zbad5KH4itnqkC3dBtG7cdk5V3o4mUIlHcxbKOyWElOzPpqswUBhRn6WYO9JQFv7uC6mYX30n4YQTzqsD4CRXR19qtdMk+dU+Y8suT15xtR07zARy9PHUOhk65dPjHwhbP5PnXCPVhAoaD2/1gkXDPxax+e0CkKPHqxEKHNqa+C86cI6rXQNi/lI9C7eUMOUVsVs7dwUIrURHyzo7h9O3VlolNJ0F1Ez621Y/dnMi6QZefvozz9yf8GCtQ5V9VF56BxYob//tq03gJjXMwoJwvzOGIjPhzxrQbVY1AwhC4aLogIiSrfkgIygC+P0E=
 sudo: false
-
-script: bundle exec middleman build
-
+before_install:
+- which bundle
+- gem install bundler -N
+- bundle update --bundler
+install:
+- bundle install
+before_script:
+- (echo $GITHUB_TOKEN > .oauth_token)
+script:
+- bundle exec middleman build
+after_script:
+- (rm -f .oauth_token)
 deploy:
   local_dir: build/
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: "$GITHUB_TOKEN"
   keep_history: true
   target_branch: master
   on:
-    branch: master
+    branch: source
+cache:
+  - bundler
+  - directories:
+    - /home/travis/.rvm/
